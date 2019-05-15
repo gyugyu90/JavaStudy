@@ -1,4 +1,4 @@
-package codility.tranining;
+package codility.tranining.countingelements;
 
 import java.util.Arrays;
 import java.util.HashSet;
