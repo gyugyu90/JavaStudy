@@ -1,9 +1,9 @@
-package codility.tranining;
+package codility.challenge;
 
 import java.util.*;
 
 // https://app.codility.com/programmers/custom_challenge/zirconium2019/
-public class CodilityFDevelopers {
+public class FDevelopers {
 
     public int solution(int[] A, int[] B, int F) {
         // write your code in Java SE 8
@@ -84,7 +84,7 @@ public class CodilityFDevelopers {
     }
 
     public static void main(String[] args) {
-        CodilityFDevelopers c = new CodilityFDevelopers();
+        FDevelopers c = new FDevelopers();
         // {1,5,3,4,2}, {5,2,3,1,3}, 3
         // {7, 1, 4, 4}, {5, 3, 4, 3}, 2)
         int[] A = new int[]{7, 7, 7, 7};
