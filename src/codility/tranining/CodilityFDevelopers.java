@@ -1,3 +1,5 @@
+package codility.tranining;
+
 import java.util.*;
 
 // https://app.codility.com/programmers/custom_challenge/zirconium2019/
