@@ -27,22 +27,11 @@ public class FrogRiverOne {
     private int solution(int X, int[] A){
 
         Set<Integer> set = new HashSet<>();
-        int length = A.length;
-        int ans = 0;
-        for(int i = 0; i < length; i++) {
-            int value = A[i];
-            if(set.size() == X) {
-                break;
-            }
-
-            if(!set.contains(value)) {
-                set.add(value);
-                ans = i;
-            }
+        for(int i = 0; i < A.length; i++) {
+            set.add(A[i]); // add()는 contains check를 항상 하기 때문에 따로 체크 하지 않아도 됨
+            if(set.size() == X) return i;
         }
-
-        if(set.size() != X) return -1;
-        else return ans;
+        return -1;
     }
 
 }
