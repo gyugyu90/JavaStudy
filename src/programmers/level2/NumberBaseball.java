@@ -89,11 +89,11 @@ public class NumberBaseball {
             } else if(o1[1] == o2[1] && o1[2] > o2[2]) {
                 return -1;
             }
-            return 1;
+            return 0;
         });
     }
 
-    public int solution(int[][] baseball) {
+    private int solution(int[][] baseball) {
 
         Set<Integer> candidates = generateCandidates();
 
