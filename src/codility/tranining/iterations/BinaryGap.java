@@ -4,7 +4,7 @@ package codility.tranining.iterations;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-
+// ref: @url https://app.codility.com/programmers/lessons/1-iterations/binary_gap/
 public class BinaryGap {
 
     @Test
