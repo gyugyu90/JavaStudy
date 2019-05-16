@@ -19,6 +19,7 @@ public class BinaryGap {
         assertEquals(1, solution(10));
         assertEquals(0, solution(32));
         assertEquals(4, solution(33));
+        assertEquals(5, solution(1376796946));
 
     }
 
@@ -42,28 +43,27 @@ public class BinaryGap {
 
     private String getBinaryString(int number) {
 
-        Math.pow(2, 3);
         int comparator = getHighest2multiple(number);
-        String binary = "";
+        StringBuilder binary = new StringBuilder();
         while(comparator >= 1) {
             if(number >= comparator) {
                 number -= comparator;
-                binary += "1";
+                binary.append("1");
             } else {
-                binary += "0";
+                binary.append("0");
             }
             comparator /= 2;
         }
 
-        return binary;
+        return binary.toString();
     }
 
     private int getHighest2multiple(int number){
-        int ans = 1;
+        long ans = 1;
         while(ans <= number) {
             ans *= 2;
         }
-        return ans / 2;
+        return (int)(ans / 2);
     }
 
 }
