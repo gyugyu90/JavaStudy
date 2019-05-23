@@ -1,9 +1,10 @@
-package datastructure;
+package sort;
 
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
+// 평균 n log n .. 최악 O(n^2)
 public class QuickSort {
 
     private int partition(int[] array, int left, int right) {
