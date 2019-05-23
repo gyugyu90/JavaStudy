@@ -7,6 +7,7 @@ import static org.junit.Assert.*;
 // 선택 정렬
 public class SelectionSort {
 
+    // 1 + 2 + 3 + ... + (n - 1) => n * (n - 1) / 2 => O(n^2)
     private void selectionSortMin(int[] array) {
 
         int minIndex;
