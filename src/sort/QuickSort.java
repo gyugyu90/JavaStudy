@@ -20,6 +20,7 @@ public class QuickSort {
                 int temp = array[left];
                 array[left] = array[right];
                 array[right] = temp;
+                print(array);
             }
         }
         return left;
@@ -32,6 +33,13 @@ public class QuickSort {
             quickSort(array, left, pivotNewIndex - 1);
             quickSort(array, pivotNewIndex + 1, right);
         }
+    }
+
+    private void print(int[] arr) {
+        for(int a : arr) {
+            System.out.print(a + "\t");
+        }
+        System.out.println();
     }
 
 

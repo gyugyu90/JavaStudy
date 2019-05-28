@@ -23,7 +23,7 @@ public class InsertionSort {
 
     @Test
     public void testInsertionSort() {
-        int[] array = new int[]{2,4,3,5,6,8,7,9,1};
+        int[] array = new int[]{2,4,9,5,6,8,7,3,1};
 
         insertionSort(array);
 

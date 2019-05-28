@@ -20,27 +20,33 @@ public class SelectionSort {
                     minIndex = j;
                 }
             }
-            temp = array[i];
-            array[i] = array[minIndex];
-            array[minIndex] = temp;
+
+            if(minIndex != i) {
+                temp = array[i];
+                array[i] = array[minIndex];
+                array[minIndex] = temp;
+            }
         }
     }
 
 
     private void selectionSortMax(int[] array) {
-        int max;
+        int maxIndex;
         int temp;
 
         for(int i = array.length - 1; i > 0; i--) {
-            max = i;
+            maxIndex = i;
             for(int j = i - 1; j >= 0; j--) {
-                if(array[j] > array[max]) {
-                    max = j;
+                if(array[j] > array[maxIndex]) {
+                    maxIndex = j;
                 }
             }
-            temp = array[i];
-            array[i] = array[max];
-            array[max] = temp;
+
+            if(maxIndex != i) {
+                temp = array[i];
+                array[i] = array[maxIndex];
+                array[maxIndex] = temp;
+            }
         }
     }
 
