@@ -1,9 +1,10 @@
 package codility.tranining.iterations;
 
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 // ref: @url https://app.codility.com/programmers/lessons/1-iterations/binary_gap/
 public class BinaryGap {
 

@@ -1,12 +1,13 @@
 package programmers.level2;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 // ref: @url https://programmers.co.kr/learn/courses/30/lessons/42841?language=java
 public class NumberBaseball {
 

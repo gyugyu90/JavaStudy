@@ -1,7 +1,9 @@
 package datastructure;
 
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 // 색인 순차 검색
 public class IndexedSequentialSearch {
 
