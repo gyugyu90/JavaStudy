@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+// '알고리즘 문제 해결전략' 동적계획법 bino()
 public class DPPractice {
 
     int count;

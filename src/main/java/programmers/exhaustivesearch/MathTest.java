@@ -1,4 +1,4 @@
-package programmers.bruteforce;
+package programmers.exhaustivesearch;
 
 import java.util.ArrayList;
 import java.util.List;
